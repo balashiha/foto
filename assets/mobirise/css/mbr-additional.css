@@ -1,5 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Arapey:400,400i);
-@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+@import url(../../../https://fonts.googleapis.com/css?family=Arapey:400,400i);
+@import url(../../../https://fonts.googleapis.com/css?family=Lato:400,300,700);
 
 
 
@@ -559,11 +559,11 @@ a:hover,
   color: #989898;
 }
 #menu2-0 .link {
-  font-size: 0.75rem;
+  font-size: 0.65rem;
 }
 #menu2-0 .dropdown-item,
 #menu2-0 .nav-dropdown-sm .link {
-  font-size: 0.812rem;
+  font-size: 0.704rem;
 }
 #menu2-0 .link:hover,
 #menu2-0 .dropdown-item:hover,
@@ -623,33 +623,59 @@ a:hover,
   font-size: 60px;
 }
 #header1-1 SPAN {
-  font-size: 48px;
-}
-#title4-m I {
   font-size: 30px;
 }
+#header1-1 B {
+  font-size: 36px;
+}
+#header1-1 P {
+  font-size: 16px;
+}
+#header1-1 .btn {
+  font-size: 12px;
+}
+#title4-m I {
+  font-size: 25px;
+}
 #title4-b I {
-  font-size: 48px;
+  font-size: 25px;
+}
+#title4-b P {
+  text-align: center;
 }
 #news1-c H3 {
   font-size: 24px;
   text-align: center;
 }
 #title4-i I {
-  font-size: 36px;
+  font-size: 25px;
 }
 #content4-5 H4 {
-  font-size: 25px;
+  font-size: 20px;
+}
+#content4-5 P {
+  text-align: left;
 }
 #content4-j H4 {
-  font-size: 25px;
+  font-size: 20px;
 }
 #title4-q SPAN {
-  font-size: 30px;
+  font-size: 25px;
 }
 #process1-k P {
   text-align: left;
+  font-size: 14px;
+}
+#process1-k H4 {
+  font-size: 14px;
 }
 #slider1-7 H1 {
-  font-size: 36px;
+  font-size: 25px;
+  text-align: center;
+}
+#title4-n I {
+  font-size: 25px;
+}
+#contacts1-p H1 {
+  font-size: 25px;
 }
