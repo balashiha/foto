@@ -234,11 +234,11 @@
             "paddingBottom": 1,
             "slides": [
               {
-                "active": false,
+                "active": true,
                 "media": {
                   "image": {
                     "src": "@PROJECT_PATH@/assets/images/agro-160-120-astr-160x120.jpg",
-                    "link": "https://mobirise.com",
+                    "link": "",
                     "active": true,
                     "alt": "",
                     "title": "",
@@ -251,7 +251,7 @@
                 "media": {
                   "image": {
                     "src": "@PROJECT_PATH@/assets/images/agro-160-120-vologda-160x120.jpg",
-                    "link": "https://mobirise.com",
+                    "link": "",
                     "active": true,
                     "alt": "",
                     "title": "",
@@ -264,7 +264,7 @@
                 "media": {
                   "image": {
                     "src": "@PROJECT_PATH@/assets/images/agro-160-120-1-kirov-160x120.jpg",
-                    "link": "https://mobirise.com",
+                    "link": "",
                     "active": true,
                     "alt": "",
                     "title": "",
@@ -277,7 +277,7 @@
                 "media": {
                   "image": {
                     "src": "@PROJECT_PATH@/assets/images/agro-160-120-1-krasnodar-160x120.jpg",
-                    "link": "https://mobirise.com",
+                    "link": "",
                     "active": true,
                     "alt": "",
                     "title": "",
@@ -290,7 +290,7 @@
                 "media": {
                   "image": {
                     "src": "@PROJECT_PATH@/assets/images/agro-160-120-1-rjazan-160x120.jpg",
-                    "link": "https://mobirise.com",
+                    "link": "",
                     "active": true,
                     "alt": "",
                     "title": "",
@@ -299,11 +299,11 @@
                 }
               },
               {
-                "active": true,
+                "active": false,
                 "media": {
                   "image": {
                     "src": "@PROJECT_PATH@/assets/images/agro-160-120-1-vonej-160x120.jpg",
-                    "link": "https://mobirise.com",
+                    "link": "",
                     "active": true,
                     "alt": "",
                     "title": "",
