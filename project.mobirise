@@ -1,216 +1,210 @@
 {
   "settings": {
-    "name": "FIL-06-14_2038",
+    "name": "My Site",
     "currentPage": "index.html",
     "theme": {
-      "name": "spacem",
-      "title": "SpaceM",
+      "name": "mobirise3",
+      "title": "Mobirise 3",
       "styling": {
-        "primaryColor": "#D901ED",
-        "secondaryColor": "#46004C",
-        "successColor": "#2BE080",
-        "infoColor": "#1A5CEB",
-        "warningColor": "#ffe040",
-        "dangerColor": "#EB5A1A",
-        "titleFont": "Arapey",
-        "subtitleFont": "Lato",
-        "textFont": "Lato",
-        "isRoundedButtons": true
+        "primaryColor": "#c0a375",
+        "secondaryColor": "#bfcecb",
+        "successColor": "#90a878",
+        "infoColor": "#7e9b9f",
+        "warningColor": "#f3c649",
+        "dangerColor": "#f28281",
+        "titleFont": "Montserrat",
+        "subtitleFont": "Lora",
+        "textFont": "Raleway",
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false,
+        "isRtl": false
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 27,
-    "versionPublish": "4.0.4"
+    "uniqCompNum": 38,
+    "versionPublish": "3.12.1"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Вакуумные емкости, реакторы",
-        "meta_descr": "Вакуум продукты вакуумная емкость вакуумный реактор вакуумный миксер гомогенизатор вакуумно-выпарная емкость",
+        "title": "Пищевое оборудование - филиал  Агромаш - Саратов",
+        "meta_descr": "Пищевое оборудование Сироповарочный котел Варочный котел пищевой насос гомогенизатор вакуумная емкость вакуумный реактор жиротопка вакуумный миксер гомогенизатор диссольвер",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
       },
       "components": [
         {
-          "alias": "spacem/components",
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
           "_tags": [
             "Theme"
           ],
-          "_name": "menu2",
-          "_anchor": "menu2-0",
+          "_name": "menu",
+          "_anchor": "menu-2",
           "_params": {
-            "logo": true,
-            "sticky": true,
-            "transparent": false,
-            "bgColor": "#222",
-            "fontSize": "0.65",
+            "bgColor": "#282828",
+            "fontSize": 0.75,
             "fontName": {},
-            "fontColor": "#989898",
-            "fontHoverColor": "#fff",
-            "fontActiveColor": "#222"
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": true
           },
-          "contacts": "<a data-app-btn=\"true\" href=\"tel:+123 (456) 7890 123\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\" class=\"\"><span class=\"fa fa-phone mbr-iconfont mbr-iconfont-btn\"></span>&nbsp;8 (800) 707 - 78-75 (бесплатно)</a><a data-app-btn=\"true\" href=\"index.html\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\" class=\"\"><span class=\"fa fa-envelope-o mbr-iconfont mbr-iconfont-btn\"></span>&nbsp;zakaz@agro-mash..ru</a>",
-          "icons": "<a data-app-btn=\"true\" title=\"Twitter\" href=\"http://www.agro-mash.ru/index.htm\" data-toolbar=\"-mbrFonts,-mbrFontSize\" class=\"\"><i class=\"icon-twitter\"></i></a>      ",
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/400-160-fil-moskva-409x128.png",
+              "src": "@PROJECT_PATH@/assets/images/400-160-fil-samara-409x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "http://www.agro-mash.ru/vakuumnaya-emkost.html",
+              "link": "index.html",
               "title": "",
               "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"http://www.agro-mash.ru/vakuumnaya-emkost.html\">Главная</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"http://www.agro-mash.ru/GOTOV_BIZNES.html\">Серийное</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"http://www.agro-mash.ru/new_oborudov.htm\">Новинки</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"http://www.agro-mash.ru/new_oborudov.htm\">Оборудование</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"http://www.agro-mash.ru/megotrasl.htm\">Галерея</a></li>",
-          "_customHTML": "<section class=\"menu2\">\n\n    <nav class=\"navbar navbar-dropdown navbar-fixed-top\">\n        \n\n            <div class=\"mbr-table mbr-table_top\">\n            <div class=\"container container-wide container-table\">\n                <div class=\"mbr-table-cell\">\n\n                    <div class=\"top-menu-link\"><a href=\"tel:+123 (456) 7890 123\" class=\"mbr-editable-button\" code-editable-id=\"17\"><span class=\"fa fa-phone mbr-iconfont mbr-iconfont-btn\"></span>&nbsp;8 (800) 707 - 78-75 (бесплатно)</a><a href=\"index.html\" class=\"mbr-editable-button\" code-editable-id=\"18\"><span class=\"fa fa-envelope-o mbr-iconfont mbr-iconfont-btn\"></span>&nbsp;zakaz@agro-mash..ru</a></div>\n\n                </div>\n                <div class=\"mbr-table-cell\">\n\n                    <div class=\"top-menu-folow pull-xs-right\"><a title=\"Twitter\" href=\"http://www.agro-mash.ru/index.htm\" class=\"mbr-editable-button\" code-editable-id=\"19\"><i class=\"icon-twitter\"></i></a>      </div>\n\n                </div>\n            </div>\n            </div>\n\n            <div class=\"mbr-table mbr-table_bottom\">\n            <div class=\"container container-wide container-table\">\n                <div class=\"mbr-table-cell logo\">\n\n                    <div class=\"navbar-brand\">\n                        <a href=\"http://www.agro-mash.ru/vakuumnaya-emkost.html\" class=\"navbar-logo\"><img src=\"@PROJECT_PATH@/assets/images/400-160-fil-moskva-409x128.png\" alt=\"Mobirise\"></a>\n                        \n                    </div>\n\n                </div>\n                <div class=\"mbr-table-cell\">\n\n                    <ul class=\"nav-dropdown collapse pull-xs-right nav navbar-nav nav-list\" id=\"exCollapsingNavbar\"><li class=\"nav-item\"><a class=\"nav-link link mbr-editable-menu-item\" href=\"http://www.agro-mash.ru/vakuumnaya-emkost.html\" code-editable-id=\"20\">Главная</a></li><li class=\"nav-item\"><a class=\"nav-link link mbr-editable-menu-item\" href=\"http://www.agro-mash.ru/GOTOV_BIZNES.html\" code-editable-id=\"21\">Серийное</a></li><li class=\"nav-item\"><a class=\"nav-link link mbr-editable-menu-item\" href=\"http://www.agro-mash.ru/new_oborudov.htm\" code-editable-id=\"22\">Новинки</a></li><li class=\"nav-item\"><a class=\"nav-link link mbr-editable-menu-item\" href=\"http://www.agro-mash.ru/new_oborudov.htm\" code-editable-id=\"23\">Оборудование</a></li><li class=\"nav-item\"><a class=\"nav-link link mbr-editable-menu-item\" href=\"http://www.agro-mash.ru/megotrasl.htm\" code-editable-id=\"24\">Галерея</a></li></ul>\n\n                    <button class=\"navbar-toggler pull-xs-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#exCollapsingNavbar\">\n                        <em></em>\n                    </button>\n\n                </div>\n            </div>\n            </div>\n\n        \n    </nav>\n\n</section>",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
-          "_customCSS": ".hide-buttons .nav-btn {\n\tdisplay: none !important;\n}\n.navbar-caption {\n\tcolor: #ffffff;\n}\n.navbar-toggler {\n\tcolor: #989898;\n}\n.close-icon::before, .close-icon::after {\n\tbackground-color: #989898;\n}\n.link, .dropdown-item {\n\tcolor: #989898;\n}\n.link {\n\tfont-size: 0.65rem;\n}\n.dropdown-item, .nav-dropdown-sm .link {\n\tfont-size: 0.704rem;\n}\n.link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus {\n\tcolor: #fff;\n}\n.link[aria-expanded=\"true\"], .dropdown-menu {\n\tbackground: #080808;\n}\n.nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover {\n\tbackground: #1a1a1a!important;\n}\n.navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu {\n\tbackground: #222;\n}\n.bg-color.transparent .link {\n\tcolor: #989898;\n\ttransition: none;\n}\n.navbar-toggler i, .navbar-toggler em, .navbar-toggler i:before, .navbar-toggler em:before, .navbar-toggler i:after, .navbar-toggler em:after {\n\tbackground: #989898;\n}\n.navbar-toggler[aria-expanded=\"true\"] i, .navbar-toggler[aria-expanded=\"true\"] em {\n\tbackground: transparent;\n}\n.bg-color.transparent.opened .link {\n\ttransition: color .2s ease-in-out;\n}\n.bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus {\n\tcolor: #fff;\n}\n.link[aria-expanded=\"true\"] {\n\tcolor: #fff!important;\n}\n.dropdown-item[aria-expanded=\"true\"] {\n\tcolor: #222!important;\n}\n",
-          "_customTemplate": true
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Главная</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"index.html\" aria-expanded=\"true\">Каталог</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Новинки</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Популярное</a><div class=\"dropdown open\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"index.html\" aria-expanded=\"true\">Серийное</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Вакуумная емкость</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Вакуумный миксер <br>- гомогенизатор</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Гомогенизатор</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Пищевой насос</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Варочный котел</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Установки смешения</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Жиротопки</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Диссольверы</a></div></div></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"index.html\" aria-expanded=\"false\">Контакты</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Forum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Галерея</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
-          "media": {
-            "image": {
-              "class": "mbr-figure__img",
-              "src": "@THEME_PATH@/components/_images/info.jpg"
-            },
-            "video": {
-              "active": true,
-              "src": "https://www.youtube.com/watch?v=CluVGS25Kb0",
-              "class": "mbr-figure__img",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            }
-          },
-          "alias": "spacem/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "header1",
+          "_name": "header2",
           "_styles": {
-            "EM": {
-              "font-size": "80px"
+            ".mbr-section-text": {
+              "text-align": "center"
             },
-            "H1": {
-              "font-size": "60px"
-            },
-            "SPAN": {
-              "font-size": "30px"
-            },
-            "B": {
-              "font-size": "36px"
-            },
-            "P": {
-              "font-size": "16px"
-            },
-            ".btn": {
-              "font-size": "12px"
+            ".mbr-section-title": {
+              "text-align": "center"
             }
           },
-          "_anchor": "header1-1",
+          "_anchor": "header2-3",
           "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "showTitle": true,
-            "showSubtitle": true,
-            "showButtons": true,
-            "parallax": true,
+            "imageSize": 50,
+            "parallax": false,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/6140-dsc0030-2000x1333.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/3368-dsc-2000x1333.jpg",
+            "bgColor": "#2e2e2e",
             "bgColorRadio": false,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.35
-          },
-          "title": "<span style=\"font-weight: normal;\">филиал</span><b> Агромаш - Москва</b>&nbsp;",
-          "text": "&nbsp;Филиал &nbsp;\"Агромаш\" разрабатывает, производит и продает оборудование для производства продуктов : вакуумные реакторы, вакуумные емкости, вакуумное оборудование, варочные котлы, вакуумные смесители, вакуумные насосы, ваккум-выпарные установки, жиротопки, плавители, смесители, накопители, насосы, гомогенизаторы и многое другое....",
-          "buttons": "<a data-app-btn=\"true\" href=\"http://www.agro-mash.ru/index.htm\" class=\"btn btn-primary\" role=\"button\">Подробнее</a>"
-        },
-        {
-          "alias": "spacem/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "title4",
-          "_styles": {
-            "I": {
-              "font-size": "25px"
-            }
-          },
-          "_anchor": "title4-m",
-          "_params": {
-            "paddingTop": 0,
-            "paddingBottom": 0,
-            "showTitle": true,
-            "showSeparator": true,
-            "showSubtitle": false,
-            "showText": false,
-            "showButtons": false,
-            "parallax": false,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
-            "bgColorRadio": true,
-            "bgColor": "#e5e5e5",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.75
-          },
-          "subtitle": "Subtitle",
-          "title": "<i>Региональные филиалы компании Агромаш&nbsp;</i>",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quis quidem laboriosam, enim rem nobis ab laudantium. Aliquam, ipsum, impedit accusantium ex cum facilis ut tempora vero nesciunt mollitia ullam, quisquam quia cupiditate esse repudiandae. Vero nisi velit sint minima et adipisci culpa iusto ea obcaecati! Voluptatibus consectetur nulla, asperiores.",
-          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-black\" role=\"button\">learn more</a>"
-        },
-        {
-          "title": "Our clients",
-          "subtitle": "\"Our clients\" carousel with adjustable number of visible clients.",
-          "alias": "spacem/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "slider6",
-          "_params": {
-            "showTitle": true,
-            "showText": true,
-            "autoplay": true,
-            "timeout": 5,
-            "paddingTop": "1",
-            "paddingBottom": 1,
-            "showArrows": true,
-            "showBullets": true,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#e0e0e0",
-            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "overlay": false,
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.7",
             "overlayColor": "#000",
-            "overlayOpacity": 0.5,
-            "visibleSlides": "5",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/7422-dsc0007-1400x933.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "",
+              "aspectratio": "4:3",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "Пищевое оборудование",
+          "text": "Разработка - производство - продажа.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+        },
+        {
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "extTestimonials5",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "24px"
+            }
+          },
+          "_params": {
+            "autoplay": true,
+            "timeout": 5,
+            "paddingTop": "1",
+            "paddingBottom": "0",
             "slides": [
               {
-                "active": true,
+                "active": false,
                 "media": {
                   "image": {
-                    "src": "@PROJECT_PATH@/assets/images/agro-160-120-astr-160x120.jpg",
-                    "link": "",
+                    "src": "@PROJECT_PATH@/assets/images/agro-160-120-1-kirov-160x120-1.jpg",
+                    "link": "index.html",
                     "active": true,
                     "alt": "",
                     "title": "",
@@ -222,8 +216,8 @@
                 "active": false,
                 "media": {
                   "image": {
-                    "src": "@PROJECT_PATH@/assets/images/agro-160-120-vologda-160x120.jpg",
-                    "link": "",
+                    "src": "@PROJECT_PATH@/assets/images/agro-160-120-1-krasnodar-160x120-1.jpg",
+                    "link": "index.html",
                     "active": true,
                     "alt": "",
                     "title": "",
@@ -231,12 +225,1164 @@
                   }
                 }
               },
+              {
+                "active": true,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/agro-160-120-1-rjazan-160x120-1.jpg",
+                    "link": "index.html",
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": false
+                  }
+                }
+              },
+              {
+                "active": false,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/agro-160-120-1-vonej-160x120-1.jpg",
+                    "link": "index.html",
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": false
+                  }
+                }
+              },
+              {
+                "active": false,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/agro-160-120-vologda-160x120-1.jpg",
+                    "link": "index.html",
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": false
+                  }
+                }
+              },
+              {
+                "active": false,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/agro-160-120-astr-160x120-1.jpg",
+                    "link": "https://mobirise.com",
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": false
+                  }
+                }
+              }
+            ],
+            "parallax": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/flight-mountains-sky-flying-3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "showTitle": true,
+            "showSubtitle": false,
+            "showBullets": true,
+            "visibleSlides": "5",
+            "showArrows": true
+          },
+          "_anchor": "extTestimonials5-x",
+          "title": "Филиалы компании Агромаш",
+          "subtitle": "\"Our clients\" carousel with adjustable number of visible clients."
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "font-size": "24px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-4",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#c1c1c1",
+            "showMeta": false
+          },
+          "title": "Новинки выпускаемого пищевого оборудования",
+          "meta": "By John Smith posted July 20, 2016"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-e",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#efefef"
+          },
+          "text": "Филиал &nbsp;Агромаш проектирует, изготавливает и продает большой перечень пищевого, технологического и вспомогательного оборудования для виноводочной, кондитерской, косметической, лакокрасочной, масложировой, молочной, мясной, парфюмерной, пивобезалкогольной, плодоовощной, рыбной, хлебопекарной, фармацевтической, химической (в т.ч. бытовой), и других отраслей промышленности."
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features3",
+          "_anchor": "features3-g",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": 4,
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": false,
+            "ShowTexts": false,
+            "showButtons": false
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/5107-dsc-1-600x400.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title1": "Варочный котел для кафе и ресторанов",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/3403-dsc-600x400.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title2": "Смеситель для лекарственных препаратов",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/3545-sdc11743-600x400.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title3": "Гомогенизатор для перекачки нефти",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media4": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/5771-3929-dsc0050-600x400.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title4": "Оборудование для кондитерских изделий",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media5": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "color": "#2969b0",
+              "font-size": "36px"
+            },
+            "SMALL": {
+              "color": "#000000"
+            },
+            "B": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-u",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#cccccc",
+            "showMeta": true
+          },
+          "title": "Предлагаем &nbsp;выпускаемое пищевое оборудование&nbsp;",
+          "meta": "<b style=\"font-style: normal;\">Наиболее покупаеиые модели:</b>"
+        },
+        {
+          "alias": "wowslider",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "wowslider",
+          "_params": {
+            "customSize": false,
+            "customWidth": "1600",
+            "customHeight": "1080",
+            "size": "1024x576",
+            "slides": [
+              {
+                "src": "@PROJECT_PATH@/assets/images/3641_dsc-2000x1332.jpg",
+                "active": false,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/3641-dsc-1024x576.jpg",
+                "title": "Насосы",
+                "text": "пищевые",
+                "tooltip": "@PROJECT_PATH@/assets/images/3641-dsc-85x48.png"
+              },
+              {
+                "src": "@PROJECT_PATH@/assets/images/3255_dsc-1-2000x1333.jpg",
+                "active": false,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/3255-dsc-1024x576.jpg",
+                "title": "Установки ",
+                "text": "смешения",
+                "tooltip": "@PROJECT_PATH@/assets/images/3255-dsc-85x48.png"
+              },
+              {
+                "src": "@PROJECT_PATH@/assets/images/3552_dsc-2000x1333.jpg",
+                "active": false,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/3552-dsc-1024x576.jpg",
+                "title": "Вакуумные",
+                "text": " реакторы",
+                "tooltip": "@PROJECT_PATH@/assets/images/3552-dsc-85x48.png"
+              },
+              {
+                "src": "@PROJECT_PATH@/assets/images/7048_dsc-2000x1332.jpg",
+                "active": false,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/7048-dsc-1024x576.jpg",
+                "title": "Установки ",
+                "text": "смешения",
+                "tooltip": "@PROJECT_PATH@/assets/images/7048-dsc-85x48.png"
+              },
+              {
+                "src": "@PROJECT_PATH@/assets/images/6666_dsc0053-2000x1332.jpg",
+                "active": false,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/6666-dsc0053-1024x576.jpg",
+                "title": "Установки ",
+                "text": "смешения",
+                "tooltip": "@PROJECT_PATH@/assets/images/6666-dsc0053-85x48.png"
+              },
+              {
+                "src": "@PROJECT_PATH@/assets/images/8022_dsc0177-2000x1332.jpg",
+                "active": true,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/8022-dsc0177-1024x576.jpg",
+                "title": "Вакуумные",
+                "text": " реакторы",
+                "tooltip": "@PROJECT_PATH@/assets/images/8022-dsc0177-85x48.png"
+              }
+            ],
+            "theme": "graffito",
+            "bgColor": "#7e9b9f",
+            "animType": "blur",
+            "autoplay": true,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "fullScreen": true,
+            "showBullets": true,
+            "timeout": 2,
+            "duration": 2,
+            "height": "576",
+            "width": "1024",
+            "responsive": "1",
+            "showCaptions": true,
+            "captionsEffect": "slide",
+            "hideControls": false
+          },
+          "_anchor": "wowslider-0",
+          "articleLayout": false
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "font-size": "24px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-5",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#c1c1c1",
+            "showMeta": false
+          },
+          "title": "Варианты выпускаемого &nbsp;пищевого оборудования &nbsp;",
+          "meta": "By John Smith posted July 20, 2016"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "images": [
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/3641-dsc-2000x1334-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/3641-dsc-2000x1334.jpg",
+                "caption": "Пищевые насосы",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/2884-dsc-2000x1333-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/2884-dsc-2000x1333.jpg",
+                "caption": "Вакуумные реакторы с сенсорной панелью",
+                "active": true
+              },
+              {
+                "tags": "Creative",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/7398-dsc0156-2000x1334-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/7398-dsc0156-2000x1334.jpg",
+                "caption": "Вакуумно - выпарные установки",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/4479-dsc-2000x1333-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/4479-dsc-2000x1333.jpg",
+                "caption": "Вакуумные емкости",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/3255-dsc-2000x1333-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/3255-dsc-2000x1333.jpg",
+                "caption": "Установки смешения",
+                "active": false
+              },
+              {
+                "tags": "Beautiful",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/3368-dsc-2000x1333-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/3368-dsc-2000x1333.jpg",
+                "caption": "Сироповарочные котлы",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/3410-dsc-2000x1333-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/3410-dsc-2000x1333.jpg",
+                "caption": "Жиротопки",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/4309-dsc-0028-r-2000x1333-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/4309-dsc-0028-r-2000x1333.jpg",
+                "caption": "Биореакторы",
+                "active": false
+              }
+            ],
+            "spacing": "1",
+            "showText": true,
+            "filter": false,
+            "bgColor": "#cccccc",
+            "filterBgColor": false,
+            "fullWidth": false,
+            "showBullets": true
+          },
+          "_anchor": "gallery1-1",
+          "articleLayout": false,
+          "allItem": "All"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "font-size": "36px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-s",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff",
+            "showMeta": false
+          },
+          "title": "Пищевое оборудование - обзор выпускаемого оборудования",
+          "meta": "By John Smith posted July 20, 2016"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-t",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "&nbsp;Используя многолетний опыт в производстве оборудования, Агромаш предлагает Вам проверенное уникальное пищевое и прочее технологическое оборудование. Серийно выпускаем &nbsp;для производства. &nbsp;ёмкости из нержавеющей стали, варочные котлы, вакуумные реакторы из нержавеющей стали, вакуумные емкости из нержавеющей стали, темперирующие емкости из нержавеющей стали, накопительные емкости из нержавеющей стали, &nbsp;шнековые и импеллерные насосы, гомогенизаторы, установки термизации, жиротопки, жироуловители, плавители, вакуумные массажеры, вакуумные миксеры-гомогенизаторы и многое другое &nbsp;Мы проводим обработку поверхностей: зачистка швов, шлифовка, полировка, никелирование, электрохимполировка, порошковые покрытия. Все наше оборудование по Вашему желанию оснащается как отечественными, так и импортными комплектующими (мотор-редуктора, запорная арматура, клапаны, автоматика, средства защиты)&nbsp;"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
+          "_styles": {
+            "H3": {
+              "font-size": "24px",
+              "text-align": "left",
+              "color": "#b8312f"
+            },
+            "P": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "msg-box5-r",
+          "_params": {
+            "imageSize": 50,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/slider3-image-5-1400x676.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "Пищевое оборудование - &nbsp; новинки !",
+          "text": "Серийно выпускаем пищевое и технологическое оборудование. .Серийно производим: диссольверы, варочные котлы, вакумные емкости, вакуумные реакторы, вакуумные миксеры - гомогенизаторы, насосы, гомогенизаторы и т. д. <br>.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">Подробнее</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
+          "_styles": {
+            "H3": {
+              "font-size": "24px",
+              "text-align": "left"
+            },
+            "P": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "msg-box5-n",
+          "_params": {
+            "imageSize": 50,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/slider-image-5-1400x676.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "<span style=\"color: inherit; line-height: 1.1;\"><br></span><br><span style=\"color: inherit; line-height: 1.1;\">Варочные котлы - серийно выпускаем</span><br>",
+          "text": "Варочный котел представляет собой термоизолированный многослойный резервуар из пищевой нержавеющей стали с рубашкой под пар (воду, масло, глицерин). Варочный котёл укомплектован пультом управления, позволяющим автоматизировать процесс приготовления продукта....",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">Обзор</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
+          "_styles": {
+            "H3": {
+              "font-size": "24px",
+              "text-align": "left"
+            },
+            "P": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "msg-box5-q",
+          "_params": {
+            "imageSize": 50,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/slider3-image-3-1400x676.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "Вакуумные миксеры - гомогенизаторы",
+          "text": ".Вакуумный миксер-гомогенизатор предназначен для эмульгирования, смешивания и термической обработки жидких, вязких и \nпастообразных продуктов&nbsp;",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">Обзор</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
+          "_styles": {
+            "H3": {
+              "font-size": "24px",
+              "text-align": "left"
+            },
+            "P": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "msg-box5-p",
+          "_params": {
+            "imageSize": 50,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/slider2-image-1400x676.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "Установки смешения - пишевые смесители",
+          "text": "Установки смешения для смешения жидких и вязких компонентов в т . ч . вакуумные, смесители для перемещения сухих сыпучих пищевых продуктов подразделяются на вращающие и транспортирующие...&nbsp;",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">Обзор</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
+          "_styles": {
+            "H3": {
+              "font-size": "24px",
+              "text-align": "left"
+            },
+            "P": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "msg-box5-o",
+          "_params": {
+            "imageSize": 50,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/slider3-image-2-1400x676.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "Сироповарочные котлы - сироповарки",
+          "text": ".Сироповарочный котел имеет вид трехслойной емкости из нержавеющей стали с «рубашкой», утепленной минеральной ватой. Теплоноситель работает на глицерине или пару под давлением. .....",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">Обзор</a>   "
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
+          "_styles": {
+            "H3": {
+              "font-size": "24px",
+              "text-align": "left"
+            },
+            "P": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "msg-box5-k",
+          "_params": {
+            "imageSize": 50,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/slider3-image-1400x676.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "Вакуумные емкости - модельный ряд",
+          "text": ".Вакуумные реакторы из нержавеющей стали используют для работы под давлением и вакуумом в самом широком спектре температур (от -80 до + 350 °С). Вакуумные реакторы используют для гидролиза, нейтрализации, кристаллизации, испарения и других процессов",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">Обзор</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
+          "_styles": {
+            "H3": {
+              "font-size": "24px",
+              "text-align": "left"
+            },
+            "P": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "msg-box5-l",
+          "_params": {
+            "imageSize": 50,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/slider6-image-1400x676.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "Гомогенизаторы - серийно выпускаем",
+          "text": "Гомогенизатор применяется в производстве молочных консервов, овощных, фруктовых и стерилизованного молока, мороженого, сливок и других аналогичных по консистенции продуктов и средств.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">Обзор</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
+          "_styles": {
+            "H3": {
+              "font-size": "24px",
+              "text-align": "left"
+            },
+            "P": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "msg-box5-m",
+          "_params": {
+            "imageSize": 50,
+            "paddingTop": "0",
+            "paddingBottom": 0,
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/slider1-image-1-1400x676.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "<span style=\"color: inherit; line-height: 1.1;\">Пищевые насосы</span><br>",
+          "text": "Насосы производства компании &nbsp;Агромаш предназначены для перекачивания пищевых продуктов различной вязкости и плотности в широком диапазоне температур. Насосы комплектуются импортными торцовыми уплотнениями различных типов в зависимости от перекачиваемой среды....",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Обзор</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "font-size": "24px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-11",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#7e9b9f",
+            "showMeta": false
+          },
+          "title": "Варианты выпускаемых мешалок &nbsp; &nbsp;",
+          "meta": "By John Smith posted July 20, 2016"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "images": [
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/6121-dsc0029-2000x1332-800x532.jpg",
+                "image": "@PROJECT_PATH@/assets/images/6121-dsc0029-2000x1332.jpg",
+                "caption": "Мешалка фреза",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/6260-dsc0049-2000x1332-800x532.jpg",
+                "image": "@PROJECT_PATH@/assets/images/6260-dsc0049-2000x1332.jpg",
+                "caption": "Вариант мешалки",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/6140-dsc0030-2000x1332-800x532.jpg",
+                "image": "@PROJECT_PATH@/assets/images/6140-dsc0030-2000x1332.jpg",
+                "caption": "Вакуумно - выпарные установки",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/6464-dsc0009-2000x1332-800x532.jpg",
+                "image": "@PROJECT_PATH@/assets/images/6464-dsc0009-2000x1332.jpg",
+                "caption": "Ленточный смеситель",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/6604-dsc0076-2000x1332-800x532.jpg",
+                "image": "@PROJECT_PATH@/assets/images/6604-dsc0076-2000x1332.jpg",
+                "caption": "Пропеллерная мешалка",
+                "active": false
+              },
+              {
+                "tags": "Beautiful",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/7049-dsc0049-2000x1332-800x532.jpg",
+                "image": "@PROJECT_PATH@/assets/images/7049-dsc0049-2000x1332.jpg",
+                "caption": "Лопастная мешалка для жидких сред",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/7049-dsc0021-2000x1332-800x532.jpg",
+                "image": "@PROJECT_PATH@/assets/images/7049-dsc0021-2000x1332.jpg",
+                "caption": "Лопастной смеситель для вязких продуктов",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/7170-dsc0060-2000x1332-800x532.jpg",
+                "image": "@PROJECT_PATH@/assets/images/7170-dsc0060-2000x1332.jpg",
+                "caption": "Соосная мешалка",
+                "active": true
+              }
+            ],
+            "spacing": "1",
+            "showText": true,
+            "filter": false,
+            "bgColor": "#cccccc",
+            "filterBgColor": false,
+            "fullWidth": false,
+            "showBullets": true
+          },
+          "_anchor": "gallery1-10",
+          "articleLayout": false,
+          "allItem": "All"
+        },
+        {
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "extTestimonials5",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "24px"
+            }
+          },
+          "_params": {
+            "autoplay": true,
+            "timeout": 5,
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "slides": [
               {
                 "active": false,
                 "media": {
                   "image": {
                     "src": "@PROJECT_PATH@/assets/images/agro-160-120-1-kirov-160x120.jpg",
-                    "link": "",
+                    "link": "index.html",
                     "active": true,
                     "alt": "",
                     "title": "",
@@ -249,7 +1395,7 @@
                 "media": {
                   "image": {
                     "src": "@PROJECT_PATH@/assets/images/agro-160-120-1-krasnodar-160x120.jpg",
-                    "link": "",
+                    "link": "index.html",
                     "active": true,
                     "alt": "",
                     "title": "",
@@ -262,7 +1408,7 @@
                 "media": {
                   "image": {
                     "src": "@PROJECT_PATH@/assets/images/agro-160-120-1-rjazan-160x120.jpg",
-                    "link": "",
+                    "link": "index.html",
                     "active": true,
                     "alt": "",
                     "title": "",
@@ -275,7 +1421,33 @@
                 "media": {
                   "image": {
                     "src": "@PROJECT_PATH@/assets/images/agro-160-120-1-vonej-160x120.jpg",
-                    "link": "",
+                    "link": "index.html",
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": false
+                  }
+                }
+              },
+              {
+                "active": true,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/agro-160-120-vologda-160x120.jpg",
+                    "link": "index.html",
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": false
+                  }
+                }
+              },
+              {
+                "active": false,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/agro-160-120-astr-160x120.jpg",
+                    "link": "https://mobirise.com",
                     "active": true,
                     "alt": "",
                     "title": "",
@@ -283,900 +1455,54 @@
                   }
                 }
               }
-            ]
-          },
-          "_anchor": "slider6-l",
-          "arrowLeft": "@PROJECT_PATH@/assets/images/arrow-left-white.svg",
-          "arrowRight": "@PROJECT_PATH@/assets/images/arrow-right-white.svg"
-        },
-        {
-          "alias": "spacem/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "title4",
-          "_styles": {
-            "I": {
-              "font-size": "25px"
-            },
-            "P": {
-              "text-align": "center"
-            }
-          },
-          "_anchor": "title4-b",
-          "_params": {
-            "paddingTop": 0,
-            "paddingBottom": 0,
-            "showTitle": true,
-            "showSeparator": true,
-            "showSubtitle": false,
-            "showText": true,
-            "showButtons": false,
+            ],
             "parallax": false,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
-            "bgColorRadio": true,
-            "bgColor": "#e5e5e5",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.75
-          },
-          "subtitle": "Subtitle",
-          "title": "<i>Вакуумные емкости / реакторы&nbsp;</i>",
-          "text": "Вакуумный реактор применяется в пищевой,косметической, фармацевтической, химической и многих других отраслях промышленности. \n<br>В частности в пищевой промышленности вакуумные реакторы (вакуум-выпарные аппараты) применяются, главным образом, \n<br>для получения таких продуктов как джемы и варенья, наполнители и начинки, соусы и консервированные продукты из овощного, \n<br>фруктового и мясного сырья. \n<br>.",
-          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-black\" role=\"button\">learn more</a>"
-        },
-        {
-          "title4": "<a href=\"http://mobirise.com\">mitchel jobs</a>",
-          "subtitle4": "<a href=\"http://mobirise.com\">application</a>",
-          "text4": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum dolorem quo in, animi iste magnam, saepe accusantium veritatis vitae perferendis delectus eligendi officia nulla pariatur incidunt culpa vel doloribus rem.",
-          "media4": {
-            "image": {
-              "class": "mbr-figure__img",
-              "src": "@THEME_PATH@/components/_images/news_item_4.jpg"
-            }
-          },
-          "date4": "09/09/2016",
-          "alias": "spacem/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "news1",
-          "_styles": {
-            "H3": {
-              "font-size": "24px",
-              "text-align": "center"
-            }
-          },
-          "_anchor": "news1-c",
-          "_params": {
-            "paddingTop": "0",
-            "paddingBottom": "0",
-            "showTitle": true,
-            "showSubtitle": false,
-            "showText": true,
-            "showDate": false,
-            "showImages": true,
-            "parallax": false,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/2.jpg",
-            "bgColorRadio": true,
-            "bgColor": "#e5e5e5",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.75
-          },
-          "media1": {
-            "image": {
-              "class": "mbr-figure__img",
-              "src": "@PROJECT_PATH@/assets/images/3673-dsc-1920x1280.jpg",
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            }
-          },
-          "subtitle1": "<a href=\"http://mobirise.com\">application</a>",
-          "title1": "Вакуумные емкости",
-          "text1": "Вакуумные емккости, &nbsp;реакторы из нержавеющей стали используют для работы под давлением и вакуумом в самом широком спектре температур (от -80 до + 350 °С). Вакуумные реакторы используют для гидролиза, нейтрализации, кристаллизации, испарения и других процессов",
-          "date1": "10/09/2016",
-          "media2": {
-            "image": {
-              "class": "mbr-figure__img",
-              "src": "@PROJECT_PATH@/assets/images/vid-dsc0027-1920x1280.jpg",
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            }
-          },
-          "subtitle2": "<a href=\"http://mobirise.com\">application</a>",
-          "title2": "Вакуумные реакторы",
-          "text2": "Большой выбор дополнительных принадлежностей позволяет использовать вакуумный реактор для любых технологических процессов. <br>Вакуумный реактор, главным образом, предназначен для выполнения процесса выпаривания жидкости (воды) из продуктов, загруженных в его внутренний объем. &nbsp;<br>",
-          "date2": "09/09/2016",
-          "media3": {
-            "image": {
-              "class": "mbr-figure__img",
-              "src": "@PROJECT_PATH@/assets/images/8022-dsc0177-700x467.jpg",
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            }
-          },
-          "subtitle3": "<a href=\"http://mobirise.com\">application</a>",
-          "title3": "Вакуумно выпарные установки",
-          "text3": "Вакуум-выпарная установка предназначена для варки или выпаривания масс при давлении ниже атмосферного, для повышения концентрации вещества, находящегося в растворе, или частичного выделения его в твердом виде из пересыщенного раствора выпариванием растворителя ",
-          "date3": "08/09/2016"
-        },
-        {
-          "alias": "spacem/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "gallery1",
-          "_params": {
-            "showBullets": true,
-            "spacing": "3",
-            "paddingTop": 0,
-            "paddingBottom": "0",
-            "bgColor": "#3c77ed",
-            "showText": true,
-            "filter": false,
-            "images": [
-              {
-                "tags": "Awesome",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/3505-dsc-2000x1334-800x533.jpg",
-                "image": "@PROJECT_PATH@/assets/images/3505-dsc-2000x1334.jpg",
-                "caption": "Отгрузка вакуумного реактора",
-                "active": false
-              },
-              {
-                "tags": "Responsive",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/6189-dsc0020-2000x1334-800x533.jpg",
-                "image": "@PROJECT_PATH@/assets/images/6189-dsc0020-2000x1334.jpg",
-                "caption": "Заводские испытания вакуумного реактора",
-                "active": false
-              },
-              {
-                "tags": "Creative",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/6313-dsc0006-2000x1334-800x533.jpg",
-                "image": "@PROJECT_PATH@/assets/images/6313-dsc0006-2000x1334.jpg",
-                "caption": "Заводские испытания вакуумной емкости",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/6604-dsc0030-2000x1334-800x533.jpg",
-                "image": "@PROJECT_PATH@/assets/images/6604-dsc0030-2000x1334.jpg",
-                "caption": "Внутренний вид вакуумного реактора",
-                "active": false
-              },
-              {
-                "tags": "Awesome",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/6604-dsc0076-2000x1334-800x533.jpg",
-                "image": "@PROJECT_PATH@/assets/images/6604-dsc0076-2000x1334.jpg",
-                "caption": "Мешалка&nbsp;",
-                "active": false
-              },
-              {
-                "tags": "Beautiful",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/6659-dsc0075-2000x1334-800x533.jpg",
-                "image": "@PROJECT_PATH@/assets/images/6659-dsc0075-2000x1334.jpg",
-                "caption": "Испытание вакуумного реактора",
-                "active": false
-              },
-              {
-                "tags": "Responsive",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/7970-dsc0051-2000x1334-800x533.jpg",
-                "image": "@PROJECT_PATH@/assets/images/7970-dsc0051-2000x1334.jpg",
-                "caption": "Производство вакуумной линии",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/8022-dsc0177-2000x1334-800x533.jpg",
-                "image": "@PROJECT_PATH@/assets/images/8022-dsc0177-2000x1334.jpg",
-                "caption": "Вакуумные емкости из нерж. стали",
-                "active": true
-              }
-            ]
-          },
-          "_anchor": "gallery1-d",
-          "articleLayout": false,
-          "allItem": "All",
-          "arrowLeft": "@PROJECT_PATH@/assets/images/arrow-left.svg",
-          "arrowRight": "@PROJECT_PATH@/assets/images/arrow-right.svg"
-        },
-        {
-          "alias": "spacem/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "title4",
-          "_styles": {
-            "I": {
-              "font-size": "25px"
-            }
-          },
-          "_anchor": "title4-i",
-          "_params": {
-            "paddingTop": "1",
-            "paddingBottom": "0",
-            "showTitle": true,
-            "showSeparator": true,
-            "showSubtitle": false,
-            "showText": false,
-            "showButtons": false,
-            "parallax": false,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
-            "bgColorRadio": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/flight-mountains-sky-flying.jpg",
             "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.75
-          },
-          "subtitle": "Subtitle",
-          "title": "<i>Серийно выпускаем вакуумные емкости / реакторы<span style=\"font-weight: normal;\">:</span></i>",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quis quidem laboriosam, enim rem nobis ab laudantium. Aliquam, ipsum, impedit accusantium ex cum facilis ut tempora vero nesciunt mollitia ullam, quisquam quia cupiditate esse repudiandae. Vero nisi velit sint minima et adipisci culpa iusto ea obcaecati! Voluptatibus consectetur nulla, asperiores.",
-          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-black\" role=\"button\">learn more</a>"
-        },
-        {
-          "title4": "mitchel jobs",
-          "subtitle4": "Programmer",
-          "text4": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum dolorem quo in, animi iste magnam, saepe accusantium veritatis vitae perferendis delectus eligendi officia nulla pariatur incidunt culpa vel doloribus rem.",
-          "media4": {
-            "image": {
-              "class": "mbr-figure__img",
-              "src": "@THEME_PATH@/components/_images/team_item_4.jpg"
-            }
-          },
-          "icons4": "<a data-app-btn=\"true\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><span class=\"socicon socicon-google mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Youtube\" target=\"_blank\" href=\"http://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\"><span class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span></a> ",
-          "alias": "spacem/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content4",
-          "_styles": {
-            "H4": {
-              "font-size": "20px"
-            },
-            "P": {
-              "text-align": "left"
-            }
-          },
-          "_anchor": "content4-5",
-          "_params": {
-            "paddingTop": "0",
-            "paddingBottom": "0",
-            "showTitle": true,
-            "showSubtitle": false,
-            "showText": true,
-            "showImages": true,
-            "showButtons": false,
-            "parallax": false,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/2.jpg",
-            "bgColorRadio": true,
-            "bgColor": "#e5e5e5",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.75
-          },
-          "media1": {
-            "image": {
-              "class": "mbr-figure__img",
-              "src": "@PROJECT_PATH@/assets/images/3179-dsc-1920x1280.jpg",
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            }
-          },
-          "title1": "Вакуумный миксер - термизатор",
-          "subtitle1": "Project manager",
-          "text1": "предназначен для измельчения, вакуумирования, смешивания, нагрева и охлаждения таких продуктов, как плавленые сыры, термизированный творог, десерты, кремы, муссы, супы и соусы, подливы, сладкие начинки, тесто, паштеты, фарши и многие другие.&nbsp;",
-          "icons1": "<a data-app-btn=\"true\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><span class=\"socicon socicon-google mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Youtube\" target=\"_blank\" href=\"http://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\"><span class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span></a> ",
-          "media2": {
-            "image": {
-              "class": "mbr-figure__img",
-              "src": "@PROJECT_PATH@/assets/images/7398-dsc0153-700x467.jpg",
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            }
-          },
-          "title2": "Вакуумный миксер<br>гомогенизатор&nbsp;",
-          "subtitle2": "Web-designer",
-          "text2": "Вакуумный миксер гомогенизатор &nbsp;предназначена для эмульгирования, смешивания и термической обработки жидких и пастообразных продуктов.&nbsp;",
-          "icons2": "<a data-app-btn=\"true\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><span class=\"socicon socicon-google mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Youtube\" target=\"_blank\" href=\"http://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\"><span class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span></a> ",
-          "media3": {
-            "image": {
-              "class": "mbr-figure__img",
-              "src": "@PROJECT_PATH@/assets/images/7822-dsc0015-700x467.jpg",
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            }
-          },
-          "title3": "Вакумный реактор",
-          "subtitle3": "Art-Director",
-          "text3": "Вакуумный реактор, главным образом, предназначен для выполнения процесса выпаривания жидкости (воды) из продуктов, загруженных в его внутренний объем. &nbsp;",
-          "icons3": "<a data-app-btn=\"true\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><span class=\"socicon socicon-google mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Youtube\" target=\"_blank\" href=\"http://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\"><span class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span></a> "
-        },
-        {
-          "title4": "mitchel jobs",
-          "subtitle4": "Programmer",
-          "text4": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum dolorem quo in, animi iste magnam, saepe accusantium veritatis vitae perferendis delectus eligendi officia nulla pariatur incidunt culpa vel doloribus rem.",
-          "media4": {
-            "image": {
-              "class": "mbr-figure__img",
-              "src": "@THEME_PATH@/components/_images/team_item_4.jpg"
-            }
-          },
-          "icons4": "<a data-app-btn=\"true\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><span class=\"socicon socicon-google mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Youtube\" target=\"_blank\" href=\"http://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\"><span class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span></a> ",
-          "alias": "spacem/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content4",
-          "_styles": {
-            "H4": {
-              "font-size": "20px"
-            }
-          },
-          "_anchor": "content4-j",
-          "_params": {
-            "paddingTop": "0",
-            "paddingBottom": "1",
-            "showTitle": true,
-            "showSubtitle": false,
-            "showText": false,
-            "showImages": true,
-            "showButtons": false,
-            "parallax": false,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/2.jpg",
-            "bgColorRadio": true,
-            "bgColor": "#e5e5e5",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.75
-          },
-          "media1": {
-            "image": {
-              "class": "mbr-figure__img",
-              "src": "@PROJECT_PATH@/assets/images/3769-dsc-0037-video-1920x1280.jpg",
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            }
-          },
-          "title1": "Фармацевтический реактор",
-          "subtitle1": "Project manager",
-          "text1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum dolorem quo in, animi iste magnam, saepe accusantium veritatis vitae perferendis delectus eligendi officia nulla pariatur incidunt culpa vel doloribus rem.",
-          "icons1": "<a data-app-btn=\"true\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><span class=\"socicon socicon-google mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Youtube\" target=\"_blank\" href=\"http://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\"><span class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span></a> ",
-          "media2": {
-            "image": {
-              "class": "mbr-figure__img",
-              "src": "@PROJECT_PATH@/assets/images/5098-dsc-1920x1280.jpg",
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            }
-          },
-          "title2": "&nbsp;Вакуумно - выпарная установка",
-          "subtitle2": "Web-designer",
-          "text2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum dolorem quo in, animi iste magnam, saepe accusantium veritatis vitae perferendis delectus eligendi officia nulla pariatur incidunt culpa vel doloribus rem.",
-          "icons2": "<a data-app-btn=\"true\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><span class=\"socicon socicon-google mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Youtube\" target=\"_blank\" href=\"http://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\"><span class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span></a> ",
-          "media3": {
-            "image": {
-              "class": "mbr-figure__img",
-              "src": "@PROJECT_PATH@/assets/images/3726-dsc-1920x1280.jpg",
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            }
-          },
-          "title3": "Производство вакуумных емкостей больших объемов",
-          "subtitle3": "Art-Director",
-          "text3": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum dolorem quo in, animi iste magnam, saepe accusantium veritatis vitae perferendis delectus eligendi officia nulla pariatur incidunt culpa vel doloribus rem.",
-          "icons3": "<a data-app-btn=\"true\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><span class=\"socicon socicon-google mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Youtube\" target=\"_blank\" href=\"http://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\"><span class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span></a> "
-        },
-        {
-          "alias": "spacem/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "title4",
-          "_styles": {
-            "SPAN": {
-              "font-size": "25px"
-            }
-          },
-          "_anchor": "title4-q",
-          "_params": {
-            "paddingTop": 0,
-            "paddingBottom": 0,
-            "showTitle": true,
-            "showSeparator": true,
-            "showSubtitle": false,
-            "showText": true,
-            "showButtons": false,
-            "parallax": false,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
-            "bgColorRadio": true,
-            "bgColor": "#e5e5e5",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.75
-          },
-          "subtitle": "Subtitle",
-          "title": "<span style=\"font-weight: normal;\"><i>Оборудование для производства пищевых и технологических продуктов\n</i></span><div><span style=\"font-weight: normal;\"><i><br></i></span></div>",
-          "text": "Компания \"Агромаш\" разрабатывает, производит и продает оборудование для производства продуктов : вакуумные реакторы, вакуумные емкости, вакуумное оборудование, варочные котлы, вакуумные смесители, вакуумные насосы, ваккум-выпарные установки, жиротопки, плавители, смесители, накопители, насосы, гомогенизаторы и многое другое&nbsp;",
-          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-black\" role=\"button\">learn more</a>"
-        },
-        {
-          "media": {
-            "image": {
-              "class": "mbr-figure__img",
-              "width": 320,
-              "src": "@THEME_PATH@/components/_images/about.jpg"
-            },
-            "video": {
-              "active": true,
-              "src": "https://www.youtube.com/watch?v=CluVGS25Kb0",
-              "class": "mbr-figure__img",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            }
-          },
-          "title": "<em>Our</em> Design",
-          "subtitle": "Subtitle",
-          "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit quisque elementum volutpat massa ac interdum velit imperdiet vel lacinia massa viverra dolor quis congue pellentesque.",
-          "alias": "spacem/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "process1",
-          "_styles": {
-            "P": {
-              "text-align": "left",
-              "font-size": "14px"
-            },
-            "H4": {
-              "font-size": "14px"
-            }
-          },
-          "_anchor": "process1-k",
-          "_params": {
-            "paddingTop": "1",
-            "paddingBottom": "0",
-            "showTitle": true,
-            "showImages": true,
-            "parallax": false,
-            "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1497.png",
-            "bgColorRadio": true,
-            "bgColor": "#e5e5e5",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.75
-          },
-          "media1": {
-            "image": {
-              "class": "mbr-figure__img",
-              "width": 640,
-              "src": "@PROJECT_PATH@/assets/images/0-88b1f-772e2297-orig-640x337.png",
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            }
-          },
-          "title1": "Соусы, майонез, кетчуп",
-          "text1": "- майонеза\n<br>- кетчупа\n<br>- соуса\n<br>- томатной пасты",
-          "media2": {
-            "image": {
-              "class": "mbr-figure__img",
-              "width": 640,
-              "src": "@PROJECT_PATH@/assets/images/0-8ce14-7a9cdfa6-orig-640x558.png",
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            }
-          },
-          "title2": "КОНдитерская",
-          "text2": "- оборудование для шоколадной глазури\n<br>- оборудование для начинок\n<br>- оборудование для мармелада\n<br>- оборудование для сиропов\n<br>- заварного теста",
-          "media3": {
-            "image": {
-              "class": "mbr-figure__img",
-              "width": 640,
-              "src": "@PROJECT_PATH@/assets/images/dr4uibm1wv-640x489.png",
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            }
-          },
-          "title3": "Плодово-овощная",
-          "text3": "- джемов, варенья, подварок\n<br>- термостабильных начинок\n<br>- плодоовощных консервов\n<br>- соков\n<br>- пюре",
-          "media4": {
-            "image": {
-              "class": "mbr-figure__img",
-              "width": 640,
-              "src": "@PROJECT_PATH@/assets/images/kosmet48-640x419.png",
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            }
-          },
-          "title4": "КОСМЕТИКА",
-          "text4": "- кремов, &nbsp;гелей, &nbsp;шампуней\n<br>- лосьенов\n<br>- бальзамов\n<br>- мыла\n<br>- жидкого мыла\n<br>- крем-краска волос"
-        },
-        {
-          "alias": "spacem/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "slider1",
-          "_styles": {
-            "H1": {
-              "font-size": "25px",
-              "text-align": "center"
-            }
-          },
-          "_params": {
-            "autoplay": true,
-            "fullScreen": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "showBullets": true,
-            "bgColor": "#fff",
-            "timeout": 5,
-            "slides": [
-              {
-                "contentAlign": "left",
-                "active": false,
-                "image": "@PROJECT_PATH@/assets/images/3552-dsc-2000x1333.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=CluVGS25Kb0",
-                "overlay": true,
-                "showTitle": true,
-                "title": "Вакуумные ректоры",
-                "showText": true,
-                "text": "После обработки под вакуумом, продукт стабильно сохраняет первоначальный цвет и высокие вкусовые качеств.&nbsp;",
-                "showButtons": true,
-                "buttons": "<a data-app-btn=\"true\" href=\"http://www.agro-mash.ru/vakuumnye-reaktory.html\" class=\"btn btn-primary\" role=\"button\" data-toolbar=\"-mbrBtnMove\">подробнее</a>"
-              },
-              {
-                "contentAlign": "left",
-                "active": false,
-                "image": "@PROJECT_PATH@/assets/images/3673-dsc-2000x1333.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=CluVGS25Kb0",
-                "overlay": true,
-                "showTitle": true,
-                "title": "Вакуумные емкости",
-                "showText": true,
-                "text": "Основное преимущество заключается в том, что вакуумные емкости обеспечивают упаривание продуктов уже при температуре 42 °С.",
-                "showButtons": true,
-                "buttons": "<a data-app-btn=\"true\" href=\"http://www.agro-mash.ru/vakuumnaya-emkost.html\" class=\"btn btn-primary\" role=\"button\" data-toolbar=\"-mbrBtnMove\">Подробнее</a>"
-              },
-              {
-                "contentAlign": "left",
-                "active": false,
-                "image": "@PROJECT_PATH@/assets/images/3906-dsc-2000x1333.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=CluVGS25Kb0",
-                "overlay": true,
-                "showTitle": true,
-                "title": "Вакуумные емкости по тех. заданию",
-                "showText": true,
-                "text": "Вакуумная емкость может доукомплектовываться любым навесным оборудованием, с установкой систем обогрева, охлаждения, вакуумирования, нагнетания, впрыска и т. д. &nbsp;<br>",
-                "showButtons": true,
-                "buttons": "<a data-app-btn=\"true\" href=\"http://www.agro-mash.ru/vakuumnaya-emkost.html\" class=\"btn btn-primary\" role=\"button\" data-toolbar=\"-mbrBtnMove\">Подробнее</a>"
-              },
-              {
-                "contentAlign": "left",
-                "active": true,
-                "image": "@PROJECT_PATH@/assets/images/5346-dsc-2000x1333.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=CluVGS25Kb0",
-                "overlay": true,
-                "showTitle": true,
-                "title": "Вакуумно - выпарные &nbsp;установки",
-                "showText": true,
-                "text": "Вакуум-выпарная установка предназначена для варки или выпаривания масс при давлении ниже атмосферного...",
-                "showButtons": true,
-                "buttons": "<a data-app-btn=\"true\" href=\"http://www.agro-mash.ru/index.htm\" class=\"btn btn-primary\" role=\"button\" data-toolbar=\"-mbrBtnMove\">Подробнее</a>"
-              }
-            ]
-          },
-          "_anchor": "slider1-7",
-          "articleLayout": false,
-          "arrowLeft": "@PROJECT_PATH@/assets/images/arrow-left.svg",
-          "arrowRight": "@PROJECT_PATH@/assets/images/arrow-right.svg"
-        },
-        {
-          "alias": "spacem/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "title4",
-          "_anchor": "title4-n",
-          "_params": {
-            "paddingTop": 0,
-            "paddingBottom": 0,
-            "showTitle": true,
-            "showSeparator": true,
-            "showSubtitle": false,
-            "showText": false,
-            "showButtons": false,
-            "parallax": false,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.75
-          },
-          "subtitle": "Subtitle",
-          "title": "<i>Наши клиенты</i>",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quis quidem laboriosam, enim rem nobis ab laudantium. Aliquam, ipsum, impedit accusantium ex cum facilis ut tempora vero nesciunt mollitia ullam, quisquam quia cupiditate esse repudiandae. Vero nisi velit sint minima et adipisci culpa iusto ea obcaecati! Voluptatibus consectetur nulla, asperiores.",
-          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-black\" role=\"button\">learn more</a>",
-          "_styles": {
-            "I": {
-              "font-size": "25px"
-            }
-          }
-        },
-        {
-          "title": "Our clients",
-          "subtitle": "\"Our clients\" carousel with adjustable number of visible clients.",
-          "alias": "spacem/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "slider6",
-          "_params": {
-            "showTitle": true,
-            "showText": true,
-            "autoplay": true,
-            "timeout": 5,
-            "paddingTop": "1",
-            "paddingBottom": 1,
-            "showArrows": true,
-            "showBullets": true,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#e0e0e0",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": false,
-            "overlayColor": "#000",
             "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "showTitle": true,
+            "showSubtitle": false,
+            "showBullets": true,
             "visibleSlides": "5",
-            "slides": [
-              {
-                "active": true,
-                "media": {
-                  "image": {
-                    "src": "@PROJECT_PATH@/assets/images/orifl-250-blesk-115x100.png",
-                    "link": "",
-                    "active": true,
-                    "alt": "",
-                    "title": "",
-                    "linkInNewWindow": false
-                  }
-                }
-              },
-              {
-                "active": false,
-                "media": {
-                  "image": {
-                    "src": "@PROJECT_PATH@/assets/images/04-cit-100x100.png",
-                    "link": "",
-                    "active": true,
-                    "alt": "",
-                    "title": "",
-                    "linkInNewWindow": false
-                  }
-                }
-              },
-              {
-                "active": false,
-                "media": {
-                  "image": {
-                    "src": "@PROJECT_PATH@/assets/images/slad-pasta-100x100.png",
-                    "link": "",
-                    "active": true,
-                    "alt": "",
-                    "title": "",
-                    "linkInNewWindow": false
-                  }
-                }
-              },
-              {
-                "active": false,
-                "media": {
-                  "image": {
-                    "src": "@PROJECT_PATH@/assets/images/det-pit-02-100x100.png",
-                    "link": "",
-                    "active": true,
-                    "alt": "",
-                    "title": "",
-                    "linkInNewWindow": false
-                  }
-                }
-              },
-              {
-                "active": false,
-                "media": {
-                  "image": {
-                    "src": "@PROJECT_PATH@/assets/images/dirof-100x100.png",
-                    "link": "",
-                    "active": true,
-                    "alt": "",
-                    "title": "",
-                    "linkInNewWindow": false
-                  }
-                }
-              },
-              {
-                "active": false,
-                "media": {
-                  "image": {
-                    "src": "@PROJECT_PATH@/assets/images/fab-100x100.png",
-                    "link": "",
-                    "active": true,
-                    "alt": "",
-                    "title": "",
-                    "linkInNewWindow": false
-                  }
-                }
-              }
-            ]
+            "showArrows": true
           },
-          "_anchor": "slider6-9",
-          "arrowLeft": "@PROJECT_PATH@/assets/images/arrow-left-white.svg",
-          "arrowRight": "@PROJECT_PATH@/assets/images/arrow-right-white.svg"
+          "_anchor": "extTestimonials5-8",
+          "title": "Филиалы компании Агромаш",
+          "subtitle": "\"Our clients\" carousel with adjustable number of visible clients."
         },
         {
-          "media": {
-            "image": {
-              "class": "mbr-figure__img",
-              "width": 320,
-              "src": "@THEME_PATH@/components/_images/about.jpg"
-            },
-            "video": {
-              "active": true,
-              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
-              "class": "mbr-figure__img",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            }
-          },
-          "alias": "spacem/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "contacts1",
-          "_anchor": "contacts1-p",
+          "_name": "form1",
+          "_anchor": "form1-z",
           "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "showTitle": true,
-            "showText": false,
-            "parallax": false,
+            "labelsColor": "#232323",
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#cccccc",
             "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.75,
-            "googleMap": {
-              "address": "Москва Шелопутинский проезд",
-              "placeId": "ChIJOTbld-xKtUYRBuOEzRtyAuA",
-              "state": "ok",
-              "stateDetails": ""
-            }
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubTitle": false
           },
-          "title": "У Вас есть вопросы?",
-          "text": "Lorem ipsum dolor sit amet, consec tetur adip iscing elit. Curabitur feugiat feugiat and brane in bibendum ",
+          "title": "Свяжитесь с нами !&nbsp;",
+          "subtitle": "Shape your future web project with sharp design and refine coded functions.",
           "form": {
-            "title": "MESSAGE",
-            "action": "agregats@yandex.ru",
+            "action": "zakaz@agro-mash.ru",
             "alerts": {
               "success": "Thanks for filling out form!"
             },
@@ -1202,96 +1528,35 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-black\" type=\"submit\" role=\"button\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\">напишите нам</a>",
-          "title1": "<span class=\"etl-icon icon-map-pin mbr-iconfont mbr-iconfont-btn\"></span>Адрес",
-          "text1": "г. Москва, &nbsp;Шелапутинский пр. 7",
-          "title2": "<span class=\"etl-icon icon-envelope mbr-iconfont mbr-iconfont-btn\"></span>e-mail",
-          "text2": "zakaz@agro-mash.ru",
-          "title3": "<span class=\"etl-icon icon-phone mbr-iconfont mbr-iconfont-btn\"></span>phone",
-          "text3": "<b>8 &nbsp;(800) 707-78- 55 (бесплатно)</b>",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>",
           "_styles": {
-            "H1": {
-              "font-size": "25px"
+            ".form-control-label": {
+              "color": "#232323"
+            },
+            ".mbr-section-title": {
+              "font-size": "32px"
             }
           }
         },
         {
-          "media": {
-            "image": {
-              "src": "@THEME_PATH@/components/_images/logo_white.png"
-            }
-          },
-          "adress": "198 West 21th Street, Suite 721, New York NY5109 Pacific Coast Highway, Los Angeles CA",
-          "phone": "<a href=\"tel:+12 (3) 456 7890 123\" class=\"adr-link\"><b>Phone:</b> +12 (3) 456 7890 123</a>",
-          "email": "<a href=\"mailto:sample@sample.com\" class=\"adr-link\"><b>Email:</b> sample@sample.com</a>",
-          "titleNews": "our news",
-          "mediaNews1": {
-            "image": {
-              "class": "resp-img",
-              "src": "@THEME_PATH@/components/_images/foot_news_1.jpg"
-            }
-          },
-          "textNews1": "<a href=\"http://mobirise.com\">Pellentesque interdum imper diet nibh in porttitor</a><span class=\"date\">15/05/16</span>",
-          "mediaNews2": {
-            "image": {
-              "class": "resp-img",
-              "src": "@THEME_PATH@/components/_images/foot_news_2.jpg"
-            }
-          },
-          "textNews2": "<a href=\"http://mobirise.com\">Pellentesque interdum imper diet nibh in porttitor</a><span class=\"date\">15/05/16</span>",
-          "titleTweet": "lastest links",
-          "tweet1": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
-          "tweet2": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
-          "tweet3": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
-          "tweet4": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
-          "titleInst": "instagram",
-          "mediaInst1": {
-            "image": {
-              "class": "resp-img",
-              "src": "@THEME_PATH@/components/_images/inst_1.jpg"
-            }
-          },
-          "mediaInst2": {
-            "image": {
-              "class": "resp-img",
-              "src": "@THEME_PATH@/components/_images/inst_2.jpg"
-            }
-          },
-          "mediaInst3": {
-            "image": {
-              "class": "resp-img",
-              "src": "@THEME_PATH@/components/_images/inst_3.jpg"
-            }
-          },
-          "mediaInst4": {
-            "image": {
-              "class": "resp-img",
-              "src": "@THEME_PATH@/components/_images/inst_4.jpg"
-            }
-          },
-          "mediaInst5": {
-            "image": {
-              "class": "resp-img",
-              "src": "@THEME_PATH@/components/_images/inst_5.jpg"
-            }
-          },
-          "mediaInst6": {
-            "image": {
-              "class": "resp-img",
-              "src": "@THEME_PATH@/components/_images/inst_6.jpg"
-            }
-          },
-          "alias": "spacem/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "footer2",
-          "_anchor": "footer2-g",
+          "_name": "footer1",
+          "_anchor": "footer1-h",
           "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
             "bgColorRadio": true,
-            "bgColor": "#212121"
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
           },
-          "copyright": "2017 &nbsp;Агромаш"
+          "text": "Copyright (c) 2017 &nbsp;Агромаш"
         }
       ]
     }
