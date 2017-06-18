@@ -5,6 +5,7 @@
 
 
 
+
 body,
 input,
 textarea,
@@ -686,13 +687,14 @@ h6,
 #menu-2 .link,
 #menu-2 .dropdown-item {
   color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
 }
 #menu-2 .link {
-  font-size: 0.75rem;
+  font-size: 0.85rem;
 }
 #menu-2 .dropdown-item,
 #menu-2 .nav-dropdown-sm .link {
-  font-size: 0.812rem;
+  font-size: 0.921rem;
 }
 #menu-2 .link:hover,
 #menu-2 .dropdown-item:hover,
@@ -702,19 +704,19 @@ h6,
 }
 #menu-2 .link[aria-expanded="true"],
 #menu-2 .dropdown-menu {
-  background: #0e0e0e;
+  background: #1f5087;
 }
 #menu-2 .nav-dropdown-sm .link:focus,
 #menu-2 .nav-dropdown-sm .link:hover,
 #menu-2 .nav-dropdown-sm .dropdown-item:focus,
 #menu-2 .nav-dropdown-sm .dropdown-item:hover {
-  background: #202020!important;
+  background: #2662a4!important;
 }
 #menu-2 .navbar,
 #menu-2 .nav-dropdown-sm,
 #menu-2 .nav-dropdown-sm .link[aria-expanded="true"],
 #menu-2 .nav-dropdown-sm .dropdown-menu {
-  background: #282828;
+  background: #2969b0;
 }
 #menu-2 .bg-color.transparent .link {
   color: #ffffff;
@@ -736,6 +738,7 @@ h6,
 }
 #header2-3 .mbr-section-title {
   text-align: center;
+  font-size: 36px;
 }
 #extTestimonials5-x .mbr-section-title {
   font-size: 24px;
@@ -842,9 +845,9 @@ h6,
 #extTestimonials5-8 .mbr-section-title {
   font-size: 24px;
 }
-#form1-z .form-control-label {
+#form1-14 .form-control-label {
   color: #232323;
 }
-#form1-z .mbr-section-title {
-  font-size: 32px;
+#form1-14 .mbr-section-title {
+  font-size: 24px;
 }
