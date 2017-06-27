@@ -22,8 +22,10 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 41,
-    "versionPublish": "3.12.1"
+    "uniqCompNum": 92,
+    "versionPublish": "3.12.1",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -112,7 +114,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/400-160-fil-samara-409x128.png",
+              "src": "@PROJECT_PATH@/assets/images/400-160-fil-saratov-409x128.png",
               "height": 128,
               "alt": "Аgro-mash",
               "link": "index.html",
@@ -126,7 +128,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption text-white\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">ГЛАВНАЯ</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"index.html\" aria-expanded=\"true\">КАТАЛОГ</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Новинки</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Популярное</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"index.html\" aria-expanded=\"false\">Серийное</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Вакуумная емкость</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Вакуумный миксер <br>- гомогенизатор</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Гомогенизатор</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Пищевой насос</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Варочный котел</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Установки смешения</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Жиротопки</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Диссольверы</a></div></div></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"index.html\" aria-expanded=\"false\">КОНТАКТЫ</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Forum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Галерея</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">ГЛАВНАЯ</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"index.html\" aria-expanded=\"false\">КАТАЛОГ</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Новинки</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Популярное</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"index.html\" aria-expanded=\"false\">Серийное</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Вакуумная емкость</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Вакуумный миксер <br>- гомогенизатор</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Гомогенизатор</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Пищевой насос</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Варочный котел</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Установки смешения</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Жиротопки</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Диссольверы</a></div></div></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"index.html\" aria-expanded=\"false\">КОНТАКТЫ</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Forum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Галерея</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
           "_tags": [
@@ -504,7 +506,7 @@
             "size": "1024x576",
             "slides": [
               {
-                "src": "@PROJECT_PATH@/assets/images/3641_dsc-2000x1332.jpg",
+                "src": "file:///C:/Users/%D0%90%D0%BB%D0%B5%D0%BA%D1%81/AppData/Local/Mobirise.com/Mobirise/projects/project-2017-06-16_032811/assets/images/3641_dsc-2000x1332.jpg",
                 "active": false,
                 "link": false,
                 "linkUrl": "http://google.com",
@@ -514,7 +516,7 @@
                 "tooltip": "@PROJECT_PATH@/assets/images/3641-dsc-85x48.png"
               },
               {
-                "src": "@PROJECT_PATH@/assets/images/3255_dsc-1-2000x1333.jpg",
+                "src": "file:///C:/Users/%D0%90%D0%BB%D0%B5%D0%BA%D1%81/AppData/Local/Mobirise.com/Mobirise/projects/project-2017-06-16_032811/assets/images/3255_dsc-1-2000x1333.jpg",
                 "active": false,
                 "link": false,
                 "linkUrl": "http://google.com",
@@ -524,7 +526,7 @@
                 "tooltip": "@PROJECT_PATH@/assets/images/3255-dsc-85x48.png"
               },
               {
-                "src": "@PROJECT_PATH@/assets/images/3552_dsc-2000x1333.jpg",
+                "src": "file:///C:/Users/%D0%90%D0%BB%D0%B5%D0%BA%D1%81/AppData/Local/Mobirise.com/Mobirise/projects/project-2017-06-16_032811/assets/images/3552_dsc-2000x1333.jpg",
                 "active": false,
                 "link": false,
                 "linkUrl": "http://google.com",
@@ -534,7 +536,7 @@
                 "tooltip": "@PROJECT_PATH@/assets/images/3552-dsc-85x48.png"
               },
               {
-                "src": "@PROJECT_PATH@/assets/images/7048_dsc-2000x1332.jpg",
+                "src": "file:///C:/Users/%D0%90%D0%BB%D0%B5%D0%BA%D1%81/AppData/Local/Mobirise.com/Mobirise/projects/project-2017-06-16_032811/assets/images/7048_dsc-2000x1332.jpg",
                 "active": false,
                 "link": false,
                 "linkUrl": "http://google.com",
@@ -544,7 +546,7 @@
                 "tooltip": "@PROJECT_PATH@/assets/images/7048-dsc-85x48.png"
               },
               {
-                "src": "@PROJECT_PATH@/assets/images/6666_dsc0053-2000x1332.jpg",
+                "src": "file:///C:/Users/%D0%90%D0%BB%D0%B5%D0%BA%D1%81/AppData/Local/Mobirise.com/Mobirise/projects/project-2017-06-16_032811/assets/images/6666_dsc0053-2000x1332.jpg",
                 "active": false,
                 "link": false,
                 "linkUrl": "http://google.com",
@@ -554,7 +556,7 @@
                 "tooltip": "@PROJECT_PATH@/assets/images/6666-dsc0053-85x48.png"
               },
               {
-                "src": "@PROJECT_PATH@/assets/images/8022_dsc0177-2000x1332.jpg",
+                "src": "file:///C:/Users/%D0%90%D0%BB%D0%B5%D0%BA%D1%81/AppData/Local/Mobirise.com/Mobirise/projects/project-2017-06-16_032811/assets/images/8022_dsc0177-2000x1332.jpg",
                 "active": true,
                 "link": false,
                 "linkUrl": "http://google.com",
@@ -767,7 +769,7 @@
             "paddingBottom": 0,
             "parallax": true,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/8022_retush-2000x1333.jpg",
             "bgColor": "#fff",
             "bgColorRadio": true,
             "bgVideo": {
@@ -1490,6 +1492,14 @@
             "Theme"
           ],
           "_name": "form1",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            },
+            ".mbr-section-title": {
+              "font-size": "24px"
+            }
+          },
           "_anchor": "form1-14",
           "_params": {
             "labelsColor": "#232323",
@@ -1498,7 +1508,7 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
+            "bgColor": "#cccccc",
             "bgColorRadio": true,
             "overlay": false,
             "overlayOpacity": 0.5,
@@ -1506,7 +1516,7 @@
             "showTitle": true,
             "showSubTitle": false
           },
-          "title": "Напишите",
+          "title": "Напишите Нам",
           "subtitle": "Shape your future web project with sharp design and refine coded functions.",
           "form": {
             "action": "zakaz@agro-mash.ru",
@@ -1535,15 +1545,7 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>",
-          "_styles": {
-            ".form-control-label": {
-              "color": "#232323"
-            },
-            ".mbr-section-title": {
-              "font-size": "24px"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Отрпавить</a>"
         },
         {
           "_tags": [
