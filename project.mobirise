@@ -850,7 +850,7 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/slider-image-5-1400x676.jpg",
+              "src": "@PROJECT_PATH@/assets/images/700-388-var-kotel-par-prod-1400x676.jpg",
               "link": "",
               "alt": "",
               "title": "",
@@ -912,7 +912,7 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/slider3-image-3-1400x676.jpg",
+              "src": "@PROJECT_PATH@/assets/images/700-388-vak-mikser-gom-prod-1400x676.jpg",
               "link": "",
               "alt": "",
               "title": "",
@@ -974,7 +974,7 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/slider2-image-1400x676.jpg",
+              "src": "@PROJECT_PATH@/assets/images/smes-syx-1400x760.jpg",
               "link": "",
               "alt": "",
               "title": "",
@@ -1036,7 +1036,7 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/slider3-image-2-1400x676.jpg",
+              "src": "@PROJECT_PATH@/assets/images/sir-var-kot-obz-1400x760.jpg",
               "link": "",
               "alt": "",
               "title": "",
@@ -1222,7 +1222,7 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/slider1-image-1-1400x676.jpg",
+              "src": "@PROJECT_PATH@/assets/images/700-388-nasos-pisch-1400x676.jpg",
               "link": "",
               "alt": "",
               "title": "",
@@ -1527,7 +1527,7 @@
               "name": {
                 "title": "Name",
                 "visible": true,
-                "customTitle": "Name*"
+                "customTitle": "Организация*"
               },
               "email": {
                 "title": "Email",
@@ -1537,11 +1537,11 @@
               "phone": {
                 "title": "Phone",
                 "visible": true,
-                "customTitle": "Phone"
+                "customTitle": "Телефон"
               },
               "message": {
                 "title": "Message",
-                "customTitle": "Message"
+                "customTitle": "Текст"
               }
             }
           },
