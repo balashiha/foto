@@ -1767,3 +1767,174 @@ h6,
 #form1-3m .mbr-section-title {
   font-size: 24px;
 }
+
+#menu-3p .hide-buttons .nav-btn {
+  display: none !important;
+}
+#menu-3p .navbar-caption {
+  color: #ffffff;
+}
+#menu-3p .navbar-toggler {
+  color: #ffffff;
+}
+#menu-3p .close-icon::before,
+#menu-3p .close-icon::after {
+  background-color: #ffffff;
+}
+#menu-3p .link,
+#menu-3p .dropdown-item {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+}
+#menu-3p .link {
+  font-size: 0.85rem;
+}
+#menu-3p .dropdown-item,
+#menu-3p .nav-dropdown-sm .link {
+  font-size: 0.921rem;
+}
+#menu-3p .link:hover,
+#menu-3p .dropdown-item:hover,
+#menu-3p .link:focus,
+#menu-3p .dropdown-item:focus {
+  color: #c0a375;
+}
+#menu-3p .link[aria-expanded="true"],
+#menu-3p .dropdown-menu {
+  background: #1f5087;
+}
+#menu-3p .nav-dropdown-sm .link:focus,
+#menu-3p .nav-dropdown-sm .link:hover,
+#menu-3p .nav-dropdown-sm .dropdown-item:focus,
+#menu-3p .nav-dropdown-sm .dropdown-item:hover {
+  background: #2662a4!important;
+}
+#menu-3p .navbar,
+#menu-3p .nav-dropdown-sm,
+#menu-3p .nav-dropdown-sm .link[aria-expanded="true"],
+#menu-3p .nav-dropdown-sm .dropdown-menu {
+  background: #2969b0;
+}
+#menu-3p .bg-color.transparent .link {
+  color: #ffffff;
+  transition: none;
+}
+#menu-3p .bg-color.transparent.opened .link {
+  transition: color 0.2s ease-in-out;
+}
+#menu-3p .bg-color.transparent.opened .link:hover,
+#menu-3p .bg-color.transparent.opened .link:focus {
+  color: #c0a375;
+}
+#menu-3p .link[aria-expanded="true"],
+#menu-3p .dropdown-item[aria-expanded="true"] {
+  color: #c0a375!important;
+}
+#header2-3q .mbr-section-text {
+  text-align: center;
+}
+#header2-3q .mbr-section-title {
+  text-align: center;
+  font-size: 36px;
+}
+#extTestimonials5-3r .mbr-section-title {
+  font-size: 24px;
+}
+#header3-4j .mbr-section-title,
+#header3-4j .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-4j H3 {
+  font-size: 24px;
+}
+#msg-box5-41 H3 {
+  font-size: 24px;
+  text-align: left;
+  color: #b8312f;
+}
+#msg-box5-41 P {
+  text-align: left;
+}
+#msg-box5-42 H3 {
+  font-size: 24px;
+  text-align: left;
+}
+#msg-box5-42 P {
+  text-align: left;
+}
+#msg-box5-43 H3 {
+  font-size: 24px;
+  text-align: left;
+}
+#msg-box5-43 P {
+  text-align: left;
+}
+#msg-box5-44 H3 {
+  font-size: 24px;
+  text-align: left;
+}
+#msg-box5-44 P {
+  text-align: left;
+}
+#msg-box5-45 H3 {
+  font-size: 24px;
+  text-align: left;
+}
+#msg-box5-45 P {
+  text-align: left;
+}
+#msg-box5-46 H3 {
+  font-size: 24px;
+  text-align: left;
+}
+#msg-box5-46 P {
+  text-align: left;
+}
+#msg-box5-47 H3 {
+  font-size: 24px;
+  text-align: left;
+}
+#msg-box5-47 P {
+  text-align: left;
+}
+#msg-box5-48 H3 {
+  font-size: 24px;
+  text-align: left;
+}
+#msg-box5-48 P {
+  text-align: left;
+}
+#msg-box5-49 H3 {
+  font-size: 24px;
+  text-align: left;
+}
+#msg-box5-49 P {
+  text-align: left;
+}
+#msg-box5-4a H3 {
+  font-size: 24px;
+  text-align: left;
+}
+#msg-box5-4a P {
+  text-align: left;
+}
+#msg-box5-4b H3 {
+  font-size: 24px;
+  text-align: left;
+}
+#msg-box5-4b P {
+  text-align: left;
+}
+#msg-box5-4c H3 {
+  font-size: 24px;
+  text-align: left;
+}
+#msg-box5-4c P {
+  text-align: left;
+}
+#form1-4g .form-control-label {
+  color: #232323;
+}
+#form1-4g .mbr-section-title {
+  font-size: 24px;
+}
